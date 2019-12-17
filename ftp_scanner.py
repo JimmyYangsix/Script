@@ -112,7 +112,7 @@ def main():
             time.sleep(0.3)
             if anonyScan(ip) == True:
                 print ('Host: ' + ip + 'Can anonymously!')
-            elif Passwords != None & Usernames!= None:
+            elif Passwords != None and Usernames!= None:
                 try:
                     port = args.Port
                 except:
